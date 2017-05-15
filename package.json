@@ -16,5 +16,10 @@
     "start": "node ./index.js"
   },
   "main": "index.js",
+  "now": {
+    "env": {
+      "USERNAME": "@my-secret-username",
+      "PASSWORD": "@my-secret-password"
+    }
   }
 }
