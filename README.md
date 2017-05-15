@@ -54,7 +54,9 @@ yarn
 ```bash
 
 # MAKE SURE YOU REPLACE THE "my-secret-*-value" STRINGS WITH YOUR OWN UNIQUE VALUES
-# if you change the "my-secret-*-key" strings, make sure you update their corresponding values in package.json at now.env.USERNAME and/or now.env.PASSWORD
+# if you change the "my-secret-*-key" strings, make sure you update their
+# corresponding values in package.json at now.env.USERNAME and/or now.env.PASSWORD
+
 now secret add my-secret-password-key my-secret-password-value
 now secret add my-secret-username-key my-secret-username-value
 
@@ -68,7 +70,7 @@ now
 
 ```
 
-6) after the upload is complete, open the URL in your web browser, provide the username and password you set in your now secrets, and you should be able to view your static site
+6) after the upload is complete, open the URL in your web browser, provide the username and password you set in your `now` secrets, and you should be able to view your static site
 
 7) To make future updates, simply edit the files in your `/public` folder and run `now` at the command line to release them. Note that the URL will change every time unless you're using [aliases and/or custom domains](https://zeit.co/docs/features/aliases) with `now`
 
