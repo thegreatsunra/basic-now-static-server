@@ -8,7 +8,7 @@ Anyone (or anything) with sufficient time, motivation, or computational power co
 
 Any static site you serve with this app, while obscure, should still be considered publicly available on the internet.
 
-### Prerequisites
+## Prerequisites
 
 1) install [node](https://nodejs.org/en/), [git](https://git-scm.com/downloads), and [yarn](https://yarnpkg.com/lang/en/docs/install/)
 
@@ -28,13 +28,13 @@ now
 
 4) open the confirmation email and follow the link to identify yourself with `now`
 
-### Getting started
+## Getting started
 
 1) clone this repo
 
 ```bash
 
-git clone 
+git clone https://github.com/thegreatsunra/basic-now-static-server.git
 cd basic-now-static-server
 
 ```
@@ -72,7 +72,7 @@ now
 
 7) To make future updates, simply edit the files in your `/public` folder and run `now` at the command line to release them. Note that the URL will change every time unless you're using [aliases and/or custom domains](https://zeit.co/docs/features/aliases) with `now`
 
-### License
+## License
 
 The MIT License (MIT)
 
