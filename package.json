@@ -1,0 +1,16 @@
+{
+  "name": "basic-now-static-server",
+  "description": "Basic static server for zeit now",
+  "version": "0.1.0",
+  "author": "Dane Petersen <thegreatsunra@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^7.0.0",
+    "npm": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "main": "index.js",
+  }
+}
