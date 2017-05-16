@@ -2,11 +2,11 @@
 
 > Serve a static site on Zeit's [now](https://zeit.co/now) using [Express](https://expressjs.com/) and [basic-auth](https://github.com/jshttp/basic-auth)
 
-**Important Note:** This app aims to provide a layer of obscurity for static sites beyond a randomly generated `now` URL. This app _does not_ provide a layer of security.
+**Important Note:** This tool aims to provide a layer of obscurity for static sites beyond a randomly generated `now` URL. This tool _does not_ provide a layer of security.
 
 Anyone (or anything) with sufficient time, motivation, or computational power could guess your `now` URL, brute-force your `basic-auth` username and password, or find another way into your hosted site.
 
-Any static site you serve with this app, while obscure, should still be considered publicly available on the internet.
+Any static site you serve with this tool, while obscure, should still be considered publicly available on the internet.
 
 ## Prerequisites
 
