@@ -19,14 +19,14 @@ Any static site you serve with this app, while obscure, should still be consider
 npm install -g now
 
 ```
-3) run `now` and provide it with your email address
+3) run `now login` and provide it with your email address
 ```bash
 
-now
+now login
 
 ```
 
-4) open the confirmation email and follow the link to identify yourself with `now`
+4) open the confirmation email, confirm the security code matches, and follow the link to verify yourself with `now`
 
 ## Getting started
 
@@ -53,12 +53,12 @@ yarn
 
 ```bash
 
-# MAKE SURE YOU REPLACE THE "my-secret-*-value" STRINGS WITH YOUR OWN UNIQUE VALUES
-# if you change the "my-secret-*-key" strings, make sure you update their
+# MAKE SURE YOU REPLACE THE "my-secret-*-value" VALUE STRINGS WITH YOUR OWN UNIQUE VALUES
+# if you change the "my-secret-*" key strings, make sure you update their
 # corresponding values in package.json at now.env.USERNAME and/or now.env.PASSWORD
 
-now secret add my-secret-password-key my-secret-password-value
-now secret add my-secret-username-key my-secret-username-value
+now secret add my-secret-username my-secret-username-value
+now secret add my-secret-password my-secret-password-value
 
 ```
 
