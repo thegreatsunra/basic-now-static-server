@@ -72,7 +72,7 @@ now
 
 6) after the upload is complete, open the URL in your web browser, provide the username and password you set in your `now` secrets, and you should be able to view your static site
 
-7) To make future updates, simply edit the files in your `/public` folder and run `now` at the command line to release them. Note that the URL will change every time unless you're using [aliases and/or custom domains](https://zeit.co/docs/features/aliases) with `now`
+7) to make future updates, simply edit the files in your `/public` folder and run `now` at the command line to release them. Note that the URL will change every time unless you're using [aliases and/or custom domains](https://zeit.co/docs/features/aliases) with `now`
 
 ## License
 
