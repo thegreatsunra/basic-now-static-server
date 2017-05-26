@@ -10,8 +10,8 @@
   "author": "Dane Petersen <thegreatsunra@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "^7.0.0",
-    "npm": "^4.0.0"
+    "node": "^7.10.0",
+    "npm": "^4.6.0"
   },
   "dependencies": {
     "basic-auth": "^1.1.0",
