@@ -1,6 +1,7 @@
 const auth = require('basic-auth')
 const express = require('express')
 const app = express()
+const db = require('./db')
 
 app.use((req, res, next) => {
   const credentials = auth(req)
