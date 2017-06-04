@@ -1,7 +1,7 @@
 {
   "name": "basic-now-static-server",
   "description": "Serve a static site on Zeit's now using Express and basic-auth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/thegreatsunra/basic-now-static-server",
   "repository": {
     "type": "git",
@@ -17,7 +17,17 @@
     "basic-auth": "^1.1.0",
     "express": "^4.15.3"
   },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
   "scripts": {
+    "lint": "eslint --ext .js ./",
     "start": "node ./index.js"
   },
   "main": "index.js",
