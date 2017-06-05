@@ -5,7 +5,13 @@
     <title>basic-now-static-server</title>
   </head>
   <body>
-    <h1>Your basic server is working!</h1>
-    <p>Now get out there and build something great!</p>
+    <h1>This is the index file!</h1>
+    <form action="http://localhost:3000/updateCerts" method="post">
+      <textarea name="certificate"></textarea><br>
+      <textarea name="privateKey"></textarea><br>
+      <textarea name="publicKey"></textarea><br>
+      <textarea name="rootCA"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
