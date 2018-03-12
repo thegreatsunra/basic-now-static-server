@@ -10,7 +10,7 @@ Any static site you serve with this tool, while obscure, should still be conside
 
 ## Prerequisites
 
-1) install [node](https://nodejs.org/en/), [git](https://git-scm.com/downloads), and [yarn](https://yarnpkg.com/lang/en/docs/install/)
+1) install [node](https://nodejs.org/en/) and [git](https://git-scm.com/downloads)
 
 2) install [now](https://zeit.co/docs/getting-started/installing-now)
 
@@ -43,7 +43,7 @@ cd basic-now-static-server
 
 ```bash
 
-yarn
+npm install
 
 ```
 
@@ -78,4 +78,4 @@ now
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Dane Petersen
+Copyright (c) 2017-2018 Dane Petersen
