@@ -36,11 +36,12 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1"
   },
-  "scripts": {
-    "lint": "eslint --ext .js ./",
-    "start": "node ./index.js"
-  },
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js src --fix",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "now": {
     "env": {
       "USERNAME": "@my-secret-username",
