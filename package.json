@@ -1,7 +1,7 @@
 {
   "name": "basic-now-static-server",
   "description": "Serve a static site on Zeit's now using Express and basic-auth",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/thegreatsunra/basic-now-static-server",
   "repository": {
     "type": "git",
