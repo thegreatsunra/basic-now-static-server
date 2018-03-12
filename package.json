@@ -7,8 +7,18 @@
     "type": "git",
     "url": "https://github.com/thegreatsunra/basic-now-static-server.git"
   },
+  "bugs": {
+    "url": "https://github.com/thegreatsunra/sawtooth-rest-api-proxy/issues"
+  },
   "author": "Dane Petersen <thegreatsunra@gmail.com>",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Dane Petersen",
+      "email": "thegreatsunra@gmail.com",
+      "url": "https://github.com/thegreatsunra"
+    }
+  ],
   "engines": {
     "node": "^7.0.0",
     "npm": "^4.0.0"
