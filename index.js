@@ -1,6 +1,14 @@
 const auth = require('basic-auth')
 const express = require('express')
+const helmet = require('helmet')
+const morgan = require('morgan')
+
+const env = require('./env')
+
 const app = express()
+
+app.use(helmet())
+app.use(morgan('combined'))
 
 app.use((req, res, next) => {
   const credentials = auth(req)
